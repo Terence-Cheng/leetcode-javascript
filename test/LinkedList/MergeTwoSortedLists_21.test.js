@@ -55,6 +55,6 @@ test(' , ', () => {
     result = result.next
     nums.push(result.val)
   }
-
+  console.log('1')
   expect(nums).toEqual([])
 })
