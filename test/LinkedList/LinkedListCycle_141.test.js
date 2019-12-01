@@ -32,7 +32,7 @@ test('head = [1], pos = -1', () => {
   // const lastNode = linkedList.getElementAt(linkedList.size() - 1)
   // lastNode.next = linkedList.getElementAt(0)
 
-  // console.log(JSON.stringify(linkedList))
+  console.log(JSON.stringify(linkedList))
 
   const result = hasCycle(linkedList.getHead())
   expect(result).toBe(false)
